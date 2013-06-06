@@ -6,10 +6,10 @@ $ih = Loader::helper('concrete/interface');
 ?>
 <?php
 if ($mode == 'inEdit') {
-    echo $h->getDashboardPaneHeaderWrapper(t('Not Approved Pages'), false);
+    echo $h->getDashboardPaneHeaderWrapper(t('Pages in edit'), false);
     echo $ih->button(t('Show not Approved Pages'), $this->action('notPublished'), ' btn');
 } else {
-    echo $h->getDashboardPaneHeaderWrapper(t('Pages in edit'), false);
+    echo $h->getDashboardPaneHeaderWrapper(t('Not Approved Pages'), false);
     echo $ih->button(t('Show in Edit Pages'), $this->action(''), ' btn');
 }
 ?>
