@@ -1,4 +1,4 @@
 naume_in_edit_pages
 =======================
 
-This addon add a new page whitch shows alle pages from the sitemape witch are in edit mode and also all pages where not been published.
+This addon adds a new page, which displays all pages that are in progress. In addition, the unpublished pages can also be displayed and can also be published directly.
